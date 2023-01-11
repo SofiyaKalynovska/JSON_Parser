@@ -13,7 +13,7 @@ You may also see any lint errors in the console.
 There are two options to view data:
 1) Card about the employee that contains information: name, title, link to LinkedIn profile, contact point, company name and location.
 Please put below code as 'return' in App.js:
-
+```react
 return (
     dataWithContactName.map((contact) => {
       const companyLidMetadata = contact.metadata.company_lid
@@ -23,10 +23,11 @@ return (
     )
   })
   )
+  ```
 
 2) Table with information about all employees based on data from response.json (only employees with have full names).
 Please put below code as 'return' in App.js:
-
+```react
 return (
    <CsvToHtmlTable
     data={csvData}
@@ -34,3 +35,4 @@ return (
     tableClassName="table"
    />
  )
+```
