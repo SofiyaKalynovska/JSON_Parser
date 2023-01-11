@@ -39,14 +39,3 @@ function ContactCard({ contact, company }) {
 }
 
 export default ContactCard;
-//       const el = `<li>
-  //   <p><b>Contact Name</b>: ${contact.name.full}</p>
-  //   <p><b>Contact Title</b>: ${contact.job_title.title}</p>
-  //   <p><b>Contact LinkedIn Profile</b>: ${contact.social_link}</p>
-  //   <p><b>Contact Location</b>: ${contact.location.country}</p>
-  //   <p> <b>Company Name</b>: ${company.name}</ >
-  //   <p><b>Company Website</b>: ${company.domains.homepage}</p>
-  //   <p><b>Company Size</b>: ${company.company_size.min} - ${company.company_size.max}</p>
-  //   <p><b>Revenue</b>: ${company.revenue_range.min} - ${company.revenue_range.max}</p>
-  //   <p><b>Company LinkedIn</b>: ${company.social.linkedin}</p>
-  // </li>`
