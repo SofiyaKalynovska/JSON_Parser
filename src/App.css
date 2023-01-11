@@ -1,0 +1,11 @@
+.table {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  align-items: center;
+  align-content: center;
+  border-collapse: collapse;
+}
+
+.table > tbody > tr > td {
+  align-self: center;
+  border: 1pt solid rgba(0, 0, 0, 0.16);
+}

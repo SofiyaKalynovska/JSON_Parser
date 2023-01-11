@@ -1,0 +1,25 @@
+.card {
+  padding: 3px 10px;
+  width: 300px;
+  height: 260px;
+  border: 1px solid black;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-text{
+  font-size: 12px;
+  font-weight: 300;
+  align-items: flex-end;
+}
+
+.rowWrapper{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
